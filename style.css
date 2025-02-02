@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square {
+height: 40px;
+width: 40px;
+margin: 2px;
+flex-shrink: 0;
+text-align: center;
+border-style: solid;
+border-color: black;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: red;
+    width: 800px;
+}
